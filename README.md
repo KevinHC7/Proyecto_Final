@@ -1,6 +1,6 @@
 # Sistema de Aprobación de Préstamos con IA 🤖💰
 
-[![Imagen de un robot que sostiene una pila de dinero y un contrato de préstamo](https://ejemplo.com/imagen-robot-prestamo.png)](https://github.com/<tu_usuario>/<tu_repositorio>)
+![Texto alternativo para la imagen](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/robot.jpg)
 
 ¿Cansado de procesos de aprobación de préstamos lentos y tediosos? ¡Tenemos la solución! Nuestro sistema de vanguardia utiliza el poder de la inteligencia artificial (IA) para transformar la forma en que se evalúan las solicitudes de préstamos.
 
