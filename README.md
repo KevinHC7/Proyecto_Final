@@ -26,8 +26,6 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 
 Únete a la revolución de la IA en la industria financiera. ¡Descubre cómo nuestro sistema puede optimizar tus operaciones y mejorar la satisfacción de tus clientes!
 
-[![GIF del sistema en acción](https://ejemplo.com/gif-sistema-aprobacion.gif)](https://github.com/<tu_usuario>/<tu_repositorio>)
-
 ## Características Destacadas
 
 *   **Modelo de IA Robusto:** Nuestro modelo de aprendizaje automático, basado en un Perceptron, ha sido entrenado con datos históricos de préstamos, lo que garantiza predicciones confiables.
@@ -35,7 +33,7 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 *   **Contenerización con Docker:** Cada microservicio se ejecuta en un contenedor Docker, lo que facilita la implementación y la portabilidad en diferentes entornos.
 *   **Orquestación con Kubernetes (Opcional):** Para entornos de producción, puedes utilizar Kubernetes para gestionar y escalar automáticamente los microservicios.
 
-## Cómo Funciona
+# ¿Cómo Funciona?
 
 1.  **Generación de Datos:** El componente `gen` extrae datos de clientes relevantes (edad, ingresos, puntuación crediticia, etc.) de una base de datos PostgreSQL.
 2.  **Balanceo de Carga:** El `loadbalancer`, implementado con Nginx, distribuye los datos de los clientes entre varias instancias de la aplicación de IA para un procesamiento eficiente.
