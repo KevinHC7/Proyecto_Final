@@ -1,6 +1,8 @@
 # Sistema de Aprobación de Préstamos con IA 🤖💰
 
-![Portada](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/robot.jpg)
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=60% src="readmeimgs/robot.jpg" align="center">
+</p>
 
 ¿Cansado de procesos de aprobación de préstamos lentos y tediosos? ¡Tenemos la solución! Nuestro sistema de vanguardia utiliza el poder de la inteligencia artificial (IA) para transformar la forma en que se evalúan las solicitudes de préstamos.
 
@@ -40,11 +42,15 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 3.  **Predicción de Aprobación:** Las instancias de la aplicación `iapp` utilizan el modelo de IA para evaluar los datos y predecir si se debe aprobar o rechazar el préstamo.
 4.  **Actualización de la Base de Datos:** Los resultados de las predicciones se almacenan en la base de datos, lo que permite un seguimiento y análisis posterior.
 
-![Base de datos](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/bd.jpeg)
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=30% src="readmeimgs/bd.jpeg" align="center">
+</p>
 
 ## Arquitectura del Sistema
 
-![Arquitectura del sistema](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/diagrama.jpeg)
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=70% src="readmeimgs/diagrama.jpeg" align="center">
+</p>
 
 Nuestro sistema está diseñado como una arquitectura de microservicios, donde cada componente cumple una función específica y se comunica con los demás a través de una red. Esta estructura ofrece modularidad, escalabilidad y facilidad de mantenimiento.
 ### Componentes Principales 
