@@ -114,6 +114,8 @@ Orquestación (Opcional): Kubernetes
 
 4.  **Accede a la aplicación:** Encuentra la IP del servicio y el puerto en los que se expone la aplicación.
 
+    ![acceso](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/acceso_servicio.png)
+    
 ## Próximos Pasos
 
 *   **Integración con Istio:** Mejorará la gestión del tráfico, la seguridad y la observabilidad con Istio.
