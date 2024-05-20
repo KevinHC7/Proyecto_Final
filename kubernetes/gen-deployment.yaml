@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gen-deployment
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: gen
+  template:
+    metadata:
+      labels:
+        app: gen
+    spec:
+      containers:
+        - name: gen
+          image: kevinhc47/gen-i:latest  # Reemplaza con tu nombre de imagen y etiqueta
+          ports:
+            - containerPort: 5000
+          env: # Variables de entorno para la conexión a la base de datos
+            - name: POSTGRES_USER
+              value: "postgres"
+            - name: POSTGRES_PASSWORD
+              value: "admin"
+            - name: POSTGRES_DB
+              value: "mydatabase"

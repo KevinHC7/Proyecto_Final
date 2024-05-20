@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gen-service
+spec:
+  selector:
+    app: gen
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
