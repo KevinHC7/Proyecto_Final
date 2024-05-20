@@ -98,6 +98,7 @@ Orquestación (Opcional): Kubernetes
     ```bash
     minikube start
     ```
+    ![inicio_minikube](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/Captura%20de%20pantalla%202024-05-20%20105519.png)
 
 3.  **Despliega los componentes:**
     ```bash
