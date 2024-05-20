@@ -45,7 +45,47 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 ## Arquitectura del Sistema
 
 ![Arquitectura del sistema](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/diagrama.jpeg)
+Nuestro sistema está diseñado como una arquitectura de microservicios, donde cada componente cumple una función específica y se comunica con los demás a través de una red. Esta estructura ofrece modularidad, escalabilidad y facilidad de mantenimiento.
+### Componentes Principales 
 
+1. **Base de Datos (PostgreSQL):**
+Almacena los datos de los clientes, incluyendo información personal, financiera y el estado de aprobación de sus préstamos.
+Utiliza el sistema de gestión de bases de datos relacionales PostgreSQL para garantizar la integridad y consistencia de los datos.
+Se comunica con los demás componentes a través de la biblioteca psycopg2 de Python.
+
+2. **Generador de Datos (gen):**
+Consulta la base de datos para extraer los datos de los clientes que aún no han sido evaluados.
+Envía estos datos al balanceador de carga en formato JSON a través de solicitudes HTTP.
+Está implementado con Flask, un framework web ligero de Python.
+
+3. **Balanceador de Carga (loadbalancer):**
+Distribuye equitativamente las solicitudes de evaluación de préstamos entre las instancias disponibles de la aplicación de IA (iapp).
+Utiliza Nginx, un servidor web de alto rendimiento, para gestionar el tráfico de manera eficiente.
+Asegura que ninguna instancia de la aplicación de IA se sobrecargue, mejorando la capacidad de respuesta del sistema.
+
+4. **Aplicación de IA (iapp):**
+Recibe los datos de los clientes del balanceador de carga.
+Utiliza un modelo de aprendizaje automático (Perceptron) entrenado para predecir si el cliente es apto para recibir un préstamo.
+Actualiza la base de datos con el resultado de la predicción (aprobado o rechazado).
+Está implementado con Flask y utiliza la biblioteca LoanBot.py para cargar y ejecutar el modelo de IA.
+
+5. **Flujo de Trabajo:**
+El Generador de Datos consulta la base de datos y obtiene los datos de un cliente.
+Los datos se envían al Balanceador de Carga.
+El Balanceador de Carga elige una instancia de la Aplicación de IA y le envía los datos.
+La Aplicación de IA procesa los datos, realiza la predicción y actualiza la base de datos.
+
+6. **Escalabilidad y Tolerancia a Fallos:**
+La arquitectura de microservicios permite escalar horizontalmente cada componente de forma independiente según la demanda.
+El balanceador de carga distribuye el tráfico, lo que aumenta la disponibilidad y la tolerancia a fallos del sistema.
+### Tecnologías Utilizadas:
+Lenguajes: Python
+Frameworks: Flask
+Bibliotecas: psycopg2, NumPy
+Base de Datos: PostgreSQL
+Servidor Web: Nginx
+Contenedores: Docker
+Orquestación (Opcional): Kubernetes
 ## Instrucciones de Implementación (Minikube)
 
 1.  **Clona este repositorio:**
