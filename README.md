@@ -35,6 +35,13 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 *   **Contenerización con Docker:** Cada microservicio se ejecuta en un contenedor Docker, lo que facilita la implementación y la portabilidad en diferentes entornos.
 *   **Orquestación con Kubernetes (Opcional):** Para entornos de producción, puedes utilizar Kubernetes para gestionar y escalar automáticamente los microservicios.
 
+## Cómo Funciona
+
+1.  **Generación de Datos:** El componente `gen` extrae datos de clientes relevantes (edad, ingresos, puntuación crediticia, etc.) de una base de datos PostgreSQL.
+2.  **Balanceo de Carga:** El `loadbalancer`, implementado con Nginx, distribuye los datos de los clientes entre varias instancias de la aplicación de IA para un procesamiento eficiente.
+3.  **Predicción de Aprobación:** Las instancias de la aplicación `iapp` utilizan el modelo de IA para evaluar los datos y predecir si se debe aprobar o rechazar el préstamo.
+4.  **Actualización de la Base de Datos:** Los resultados de las predicciones se almacenan en la base de datos, lo que permite un seguimiento y análisis posterior.
+
 ## Arquitectura del Sistema
 
 [Diagrama de arquitectura que muestra los componentes: generador de datos, balanceador de carga, aplicación de IA y base de datos]
