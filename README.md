@@ -45,6 +45,7 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 ## Arquitectura del Sistema
 
 ![Arquitectura del sistema](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/diagrama.jpeg)
+
 Nuestro sistema está diseñado como una arquitectura de microservicios, donde cada componente cumple una función específica y se comunica con los demás a través de una red. Esta estructura ofrece modularidad, escalabilidad y facilidad de mantenimiento.
 ### Componentes Principales 
 
