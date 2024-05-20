@@ -1,6 +1,6 @@
 # Sistema de Aprobación de Préstamos con IA 🤖💰
 
-![Texto alternativo para la imagen](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/robot.jpg)
+![Portada](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/robot.jpg)
 
 ¿Cansado de procesos de aprobación de préstamos lentos y tediosos? ¡Tenemos la solución! Nuestro sistema de vanguardia utiliza el poder de la inteligencia artificial (IA) para transformar la forma en que se evalúan las solicitudes de préstamos.
 
@@ -40,9 +40,11 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 3.  **Predicción de Aprobación:** Las instancias de la aplicación `iapp` utilizan el modelo de IA para evaluar los datos y predecir si se debe aprobar o rechazar el préstamo.
 4.  **Actualización de la Base de Datos:** Los resultados de las predicciones se almacenan en la base de datos, lo que permite un seguimiento y análisis posterior.
 
+![Base de datos](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/bd.jpeg)
+
 ## Arquitectura del Sistema
 
-[Diagrama de arquitectura que muestra los componentes: generador de datos, balanceador de carga, aplicación de IA y base de datos]
+![Arquitectura del sistema](https://github.com/KevinHC7/Proyecto_Final/blob/main/readmeimgs/diagrama.jpeg)
 
 ## Instrucciones de Implementación (Minikube)
 
