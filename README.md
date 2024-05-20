@@ -46,6 +46,14 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
   <img width=30% src="readmeimgs/bd.jpeg" align="center">
 </p>
 
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=60% src="readmeimgs/base-inicial.png" align="center">
+</p>
+
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=60% src="readmeimgs/base-evaluada.png" align="center">
+</p>
+
 ## Arquitectura del Sistema
 
 <p align="center" style="margin-bottom: 0px !important;">
