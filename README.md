@@ -74,9 +74,9 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 
 ## Próximos Pasos
 
-*   **Integración con Istio:** Mejora la gestión del tráfico, la seguridad y la observabilidad con Istio.
-*   **Monitorización:** Añade herramientas de monitorización para supervisar el rendimiento y la salud del sistema.
-*   **Optimización del Modelo:** Experimenta con diferentes algoritmos y técnicas de ajuste para mejorar la precisión del modelo de IA.
+*   **Integración con Istio:** Mejorará la gestión del tráfico, la seguridad y la observabilidad con Istio.
+*   **Monitorización:** Se añadirán herramientas de monitorización para supervisar el rendimiento y la salud del sistema.
+*   **Optimización del Modelo:** Se experimentará con diferentes algoritmos y técnicas de ajuste para mejorar la precisión del modelo de IA.
 
 ## Contribuciones
 
