@@ -22,7 +22,7 @@ Luego, nuestro modelo de IA, un Perceptron altamente entrenado, predice con prec
 *   ⚙️ **Escalabilidad:** Nuestra arquitectura de microservicios, con Docker y Kubernetes, se adapta a tus necesidades.
 *   🛠️ **Fácil Implementación:** Implementa nuestro sistema en tu infraestructura existente sin complicaciones.
 
-## ¡El Futuro de los Préstamos Está Aquí! ✨
+### ¡El Futuro de los Préstamos Está Aquí! ✨
 
 Únete a la revolución de la IA en la industria financiera. ¡Descubre cómo nuestro sistema puede optimizar tus operaciones y mejorar la satisfacción de tus clientes!
 
